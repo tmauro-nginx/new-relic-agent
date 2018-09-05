@@ -136,7 +136,7 @@ $ nginx -s reload
 
 ### Configuring the New Relic Agent
 
-For both NGINX Open Source and NGINX&nbsp;Plus, you must also edit the  <span style="white-space: nowrap;"> **nginx-nr-agent.ini**</span> configuration file:
+For both NGINX Open Source and NGINX&nbsp;Plus, you must also edit the <span style="white-space: nowrap;"> **nginx-nr-agent.ini**</span> configuration file:
 
   * Add your New Relic license key.
 
@@ -162,7 +162,7 @@ $ export HTTPS_PROXY="<your-proxy-host>.example.com:3128"
 
 ## Running the Plug-In
 
-The plug&#8209;in can be started as a daemon (for normal operation)  or in foreground mode (for debugging). In normal operation, by default the plug&#8209;in runs as the `nobody` user and writes its log to **/var/log/nginx-nr-agent.log**.
+The plug&#8209;in can be started as a daemon (for normal operation) or in foreground mode (for debugging). In normal operation, by default the plug&#8209;in runs as the `nobody` user and writes its log to **/var/log/nginx-nr-agent.log**.
 
 To start the plug&#8209;in as a daemon, run the following command with `root` privilege:
 
